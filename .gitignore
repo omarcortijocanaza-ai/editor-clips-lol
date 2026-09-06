@@ -1,7 +1,11 @@
-# Nada de credenciales ni datos por si acaso
+# Nada de credenciales ni datos, por si acaso
 *.json
-*.txt
 *token*
 *secret*
 config*
 data/
+
+# ...pero el fichero de verificacion de TikTok SI debe subirse.
+# Es un .txt y la regla anterior lo habria bloqueado en silencio.
+!tiktok*.txt
+!*verification*.txt
