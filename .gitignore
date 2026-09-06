@@ -1,0 +1,7 @@
+# Nada de credenciales ni datos por si acaso
+*.json
+*.txt
+*token*
+*secret*
+config*
+data/

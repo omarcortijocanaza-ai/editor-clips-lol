@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Editor de Clips de LoL</title>
+<style>
+  :root{--bg:#0d1117;--panel:#161b22;--line:#262d38;--fg:#e6edf3;--dim:#8b949e;--accent:#c89b3c}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+       font:16px/1.65 "Segoe UI",system-ui,sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 24px 80px}
+  h1{font-size:30px;margin:0 0 8px}
+  h1 span{color:var(--accent)}
+  .lead{color:var(--dim);margin:0 0 34px;font-size:17px}
+  h2{font-size:19px;margin:34px 0 10px}
+  ul{padding-left:20px} li{margin:6px 0}
+  a{color:#58a6ff}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+        padding:20px 24px;margin:26px 0}
+  .links{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+  .links a{display:inline-block;padding:10px 18px;border-radius:8px;
+           border:1px solid var(--line);background:var(--panel);text-decoration:none}
+  .links a:hover{border-color:var(--accent)}
+  footer{margin-top:50px;color:var(--dim);font-size:14px;
+         border-top:1px solid var(--line);padding-top:18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Editor de Clips <span>·</span> LoL</h1>
+  <p class="lead">Una herramienta personal que convierte mis mejores jugadas de
+  League of Legends en vídeos verticales listos para publicar.</p>
+
+  <div class="card">
+    <h2>Qué hace</h2>
+    <ul>
+      <li>Lee mi perfil público de <a href="https://aurea.gg">aurea.gg</a> y localiza los clips de mis partidas.</li>
+      <li>Descarga esos vídeos y los reencuadra a formato vertical 9:16, añadiendo el nombre de la jugada y mis estadísticas.</li>
+      <li>Opcionalmente, envía los vídeos que yo marco a la bandeja de borradores de mi propia cuenta de TikTok, usando la API oficial.</li>
+    </ul>
+  </div>
+
+  <h2>Dónde se ejecuta</h2>
+  <p>Es un programa de escritorio que corre en mi ordenador. No hay servidor,
+  no hay servicio en la nube y no hay más usuarios: soy el único.</p>
+
+  <h2>Relación con TikTok</h2>
+  <p>La aplicación deja el vídeo en la bandeja de borradores de mi cuenta. La
+  publicación final la hago yo desde la app de TikTok, donde elijo la música y
+  reviso el resultado antes de publicar.</p>
+
+  <div class="links">
+    <a href="privacidad.html">Política de privacidad</a>
+    <a href="terminos.html">Términos de servicio</a>
+  </div>
+
+  <footer>
+    Proyecto personal, sin ánimo de lucro. No está afiliado ni respaldado por
+    TikTok, Riot Games ni Aurea.
+  </footer>
+
+</div>
+</body>
+</html>
